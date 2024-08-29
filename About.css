@@ -7,7 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-body h1 {
+body header h1 {
   margin: 20px;
   font-size: 60px;
   font-family: "Dancing Script", cursive;
