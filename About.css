@@ -11,12 +11,26 @@ body h1 {
   margin: 20px;
   font-size: 60px;
   font-family: "Dancing Script", cursive;
+  border-bottom: 1px solid #ccc;
 }
 .cont {
   width: 10px;
   max-width: 10px;
   margin: 20px;
   text-wrap: nowrap;
+}
+header {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.logo_container {
+  width: 5vw;
+  border-radius: 9px;
+}
+.logo_container img {
+  width: 100%;
+  border-radius: 9px;
 }
 nav ul {
   display: flex;
@@ -30,22 +44,21 @@ nav ul {
   padding: 10px;
 }
 
-nav ul li{
+nav ul li {
   padding: 20px;
   background: #ccc;
   border-radius: 5px;
   margin: 10px;
 }
-nav ul li:hover{
+nav ul li:hover {
   background: black;
-
 }
 
 nav ul li a {
   color: hsl(202, 55%, 16%);
   text-decoration: none;
 }
-nav ul li a:hover{
+nav ul li a:hover {
   color: #eee;
 }
 
@@ -61,6 +74,10 @@ main img {
   height: auto;
   border-radius: 15px;
   margin: 20px;
+}
+
+.image_container {
+  text-align: center;
 }
 main li {
   font-size: 28px;
@@ -105,7 +122,6 @@ main h2 {
   font-size: 18px;
 }
 
-
 /* responsive styling starts here */
 
 @media (max-width: 481px) {
@@ -119,6 +135,9 @@ main h2 {
     border-radius: 15px;
     margin: 20px;
   }
+  .image_container {
+    text-align: center;
+  }
   .card_container {
     display: flex;
     flex-direction: column;
@@ -126,7 +145,7 @@ main h2 {
   }
 }
 
-@media (min-width: 481px) and (max-width: 760px){
+@media (min-width: 481px) and (max-width: 760px) {
   main section {
     display: flex;
     flex-direction: column;

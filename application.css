@@ -94,6 +94,12 @@ button {
   left: 0;
 }
 
+.contact_sect{
+  font-size: 13px;
+  text-align: center;
+  color: #8b8989;
+}
+
 /* responsive styling starts here */
 
 @media screen and (min-width: 768px) {
@@ -162,11 +168,12 @@ button {
   form span {
     display: flex;
     flex-direction: column;
+    margin: 0px;
   }
 
   form div {
     display: flex;
-    gap: 30px;
+    margin: 0px;
   }
 
   form label {
@@ -219,8 +226,8 @@ button {
     margin-top: 100px;
   }
   .icons_container span img {
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
   }
 
   .icons_container {
