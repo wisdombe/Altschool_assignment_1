@@ -178,7 +178,7 @@ button {
   }
 
   main div aside img {
-    display: none;
+    display: block;
     width: 100%;
     max-width: 35vw;
   }
