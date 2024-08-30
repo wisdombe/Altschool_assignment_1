@@ -1,6 +1,7 @@
 body {
   padding: 0;
   margin: 0px;
+
   font-family: sans-serif;
   color: rgb(15, 15, 25);
 }
@@ -22,7 +23,7 @@ nav ul {
 
 nav ul li {
   padding: 20px;
-  background: #b3ab59;
+  background: #f0ebeb;
   border-radius: 5px;
   margin: 10px;
 }
