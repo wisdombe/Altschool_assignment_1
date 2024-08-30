@@ -9,7 +9,7 @@ body {
 
 body header h1 {
   margin: 20px;
-  font-size: 60px;
+  font-size: 5em;
   font-family: "Dancing Script", cursive;
   border-bottom: 1px solid #ccc;
 }
@@ -34,12 +34,13 @@ header {
 }
 nav ul {
   display: flex;
+  flex-wrap: wrap;
   position: sticky;
   top: 0px;
   left: 0px;
   right: 0px;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1em;
   list-style-type: none;
   padding: 10px;
 }

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amethysta&family=Ga+Maamli&family=Lilita+One&family=Qwitcher+Grypen:wght@400;700&family=Yellowtail&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="media.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="applicationFormMain.html">Form page</a></li>
+        <li><a href="index.html">About me Page</a></li>
+        <li><a href="media.html">Media page</a></li>
+        <li><a href="table.html">table Page</a></li>
+      </ul>
+    </nav>
+
+
+    <h1>My Html media page</h1>
+
+    <!-- picture elements section -->
+    <main>
+      <h2>picture section</h2>
+      <figure id="picture_section">
+        <figcaption class="first_text">
+          hello world, my name is oladipupo wisdom bello and i am passionate
+          frontend developer with a thirst for greatness and a love for building
+          cool,beautifull and powerfull websites
+        </figcaption>
+        <div class="picture_container_1 picture_hover_effect">
+          <picture class="bose_pose_picture">
+            <source
+              media="(max-width: 500px)"
+              srcset="./images/boss_pose_image.jpg"
+            />
+            <source
+              media="(max-width: 1100px)"
+              srcset="./images/boss_pose_image.jpg"
+            />
+            <source
+              media="(max-width: 1300px)"
+              srcset="./images/boss_pose_image.jpg"
+              type="image/jpeg"
+            />
+            <img src="./images/boss_pose_image.jpg" alt="my boss pose Image" />
+          </picture>
+        </div>
+
+        <div class="picture_container_2 picture_hover_effect">
+          <picture class="laptop_picture">
+            <source
+              media="(max-width: 500px)"
+              srcset="./images/media_pic.jpeg"
+            />
+            <source
+              media="(max-width: 1100px)"
+              srcset="./images/media_pic.jpeg"
+            />
+            <source
+              media="(max-width: 1300px)"
+              srcset="./images/media_pic.jpeg"
+              type="image/jpeg"
+            />
+            <img
+              src="./images/media_pic.jpeg"
+              alt="picture of a working setting"
+            />
+          </picture>
+        </div>
+        <div class="picture_container_3 picture_hover_effect2">
+          <picture class="bishop_oyedepo">
+            <source
+              media="(max-width: 500px)"
+              srcset="./images/bishop_oyeddepo worshiping.jpg"
+            />
+            <source
+              media="(max-width: 1100px)"
+              srcset="./images/bishop_oyeddepo worshiping.jpg"
+            />
+            <source
+              media="(max-width: 1300px)"
+              srcset="./images/bishop_oyeddepo worshiping.jpg"
+              type="image/jpeg"
+            />
+            <img
+              src="./images/bishop_oyeddepo worshiping.jpg"
+              alt="my worship expressive image"
+            />
+          </picture>
+        </div>
+        <div class="picture_container_4 picture_hover_effect2">
+          <picture class="baloons_picture">
+            <source
+              media="(max-width: 500px)"
+              srcset="./images/jesus-image1.jpg"
+            />
+            <source
+              media="(max-width: 1100px)"
+              srcset="./images/jesus-image1.jpg"
+            />
+            <source
+              media="(max-width: 1300px)"
+              srcset="./images/jesus-image1.jpg"
+              type="image/jpeg"
+            />
+            <img
+              src="./images/jesus-image1.jpg"
+              alt="my emotional expressive image"
+            />
+          </picture>
+        </div>
+        <figcaption class="second_text">
+          these are pictures that describe my work life, my constant state of
+          mind and my journey
+        </figcaption>
+      </figure>
+
+      <!-- video elements section -->
+
+      <figure id="video_section">
+        <figcaption class="first_video_text">
+          <h2>video section</h2>
+          <h2>
+            this section contains videos showcasing projects me and my fellow
+            circle-20-members worked on together
+          </h2>
+          <ul>
+            <li>
+              first is a four--feature--card web application with four different
+              cards carefully and beautifully placed using vanilla css . this
+              project is important to me because it represents a big milestone
+              for my circle since it was our first project together
+            </li>
+          </ul>
+        </figcaption>
+        <video class="first_video" width="600px" height="320px" controls>
+          <source
+            src="./videos/Four Feature Card - Google Chrome 2024-08-22 22-55-22.mp4"
+          />
+          your browser does not support this video tag
+        </video>
+        <figcaption class="second_video_text">
+          <ul>
+            <li>
+              second is a social--proof-web web application with a banner text ,
+              a product/service rating section and a three card component
+              section.
+            </li>
+          </ul>
+        </figcaption>
+        <video class="second_video" width="600px" height="320px" controls>
+          <source src="./videos/socaial-proof-website-vidoe.mp4" />
+        </video>
+      </figure>
+
+      <!-- audio elements section -->
+
+      <figure id="audio_section">
+        <figcaption>
+          <h2>audio section</h2>
+          listen to one of my favorite songs at the moment
+        </figcaption>
+        <figcaption>
+          it is a cover song by gospel artist kaestrings about raising the flag
+          of our lord and saviour jesus christ high
+        </figcaption>
+        <audio controls>
+          <source
+            src="./audio/We-Raise-Your-Banner-Kaestrings-PraiseZion.mp3"
+            type="audio/mp3"
+          />
+          your browser does not support this format
+        </audio>
+      </figure>
+    </main>
+  </body>
+</html>
